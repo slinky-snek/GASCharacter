@@ -31,7 +31,6 @@ void AHeroCharacter::BeginPlay()
 	}
 }
 
-// Called every frame
 void AHeroCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
