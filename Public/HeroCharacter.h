@@ -10,7 +10,7 @@ class UBoppersAbilitySystemComponent;
 class UBoppersAttributeSet;
 class UGameplayAbility;
 
-//Attribute change delegates (for UI)
+//Attribute change delegate (for UI)
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FAttributeChangeDelegate, float, AttributeValue, int32, StackCount);
 
 UCLASS()
